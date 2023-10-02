@@ -2,13 +2,18 @@ body{
   margin: 0;
   padding: 0;
   
+  line-height: 1.5;
+  overflow-x: hidden;
 }
 nav{
   background-color: gray;
   padding: 1rem;
 
   width: 100%;
-  position: absolute;
+ 
+  /*position: fixed;*/
+  /*position: absolute;*/
+
   /*opacity: 0.9;*/
   /*background-color: rgba(128, 128, 128, .9)*/
 }
@@ -21,8 +26,13 @@ ul{
   list-style-type: none;
 }
 
+p{
+  font-size: 20px;
+  max-width: 50ch;
+}
+
 .image{
-  background-image: url("https://picsum.photos/800/800");
+  background-image:/*linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),*/ url("https://picsum.photos/id/10/800/800");
   
   width: 100%;
   height: 90vh;
@@ -31,6 +41,7 @@ ul{
   background-size: cover;
   background-position: center;
 
+  /*filter: brightness(50%);*/
   /*clip-path: polygon(0 0,100% 0, 100% 90%, 0 100%);*/
 }
 
@@ -39,7 +50,9 @@ header{
   padding:1rem;
   padding-top:20rem;
   text-align: center;
+  color: white;
 }
+
 h1{
   margin: 0;
 }
