@@ -1,0 +1,45 @@
+body{
+  margin: 0;
+  padding: 0;
+  
+}
+nav{
+  background-color: gray;
+  padding: 1rem;
+
+  width: 100%;
+  position: absolute;
+  /*opacity: 0.9;*/
+  /*background-color: rgba(128, 128, 128, .9)*/
+}
+
+ul{
+  display: flex;
+
+  justify-content: space-evenly;
+
+  list-style-type: none;
+}
+
+.image{
+  background-image: url("https://picsum.photos/800/800");
+  
+  width: 100%;
+  height: 90vh;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  /*clip-path: polygon(0 0,100% 0, 100% 90%, 0 100%);*/
+}
+
+header{
+  margin: auto;
+  padding:1rem;
+  padding-top:20rem;
+  text-align: center;
+}
+h1{
+  margin: 0;
+}
